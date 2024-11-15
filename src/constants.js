@@ -10,8 +10,6 @@ import {
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     threejs,
     phaet,
@@ -43,19 +41,23 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Backend and API Developer",
       icon: backend,
     },
     {
-      title: "Data Scientist",
+      title: "Natural Language Processing (AI) Researcher",
+      icon: web,
+    },
+    {
+      title: "Systems Architect",
+      icon: creator,
+    },
+    {
+      title: "Mobile Developer",
+      icon: mobile,
+    },
+    {
+      title: "IoT and real-time systems engineer",
       icon: creator,
     },
   ];
@@ -82,10 +84,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -96,10 +94,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -119,7 +113,7 @@ import {
   const experiences = [
     {
       title: "Full stack Developer",
-      company_name: "Phaet Consolidated",
+      company_name: "Phaet Holdings Limited",
       icon: phaet,
       iconBg: "#000000",
       date: "Jan 2023 - Present",
@@ -142,7 +136,7 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Cupcake Data Analytics",
+      company_name: "Lemonade Systems",
       icon: cupcake,
       iconBg: "#390050",
       date: "May 2023 - Present",
@@ -176,22 +170,6 @@ import {
       name: "Vincent Kavala",
       designation: "Teacher",
       company: "Kalibu Academy",
-      image: victor,
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Victor does.",
-      name: "Emmanuel Mjimapemba",
-      designation: "CEO",
-      company: "Phaet Consolidated",
-      image: victor,
-    },
-    {
-      testimonial:
-        "After Victor optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "You",
-      designation: "CEO",
-      company: "A very Smart Organisation",
       image: victor,
     },
   ];
