@@ -8,6 +8,7 @@ import {
     html,
     css,
     reactjs,
+    nodejs,
     redux,
     tailwind,
     git,
